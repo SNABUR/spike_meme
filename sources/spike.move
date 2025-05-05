@@ -69,7 +69,7 @@ module memecoins {
         coin::balance<SPIKE>(account)
     }
 
-    public entry fun transfer_SPIKE(
+    public entry fun transfer(
         sender: &signer,
         recipient: address,
         amount: u64
