@@ -1,0 +1,17 @@
+[package]
+name = "spike_meme"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+spike = "0x0fec116479f1fd3cb9732cc768e6061b0e45b178a610b9bc23c2143a6493e794"
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
